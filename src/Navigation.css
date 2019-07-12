@@ -1,0 +1,25 @@
+.nav-links {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+}
+
+.nav-links > li {
+  margin-right: 0.5rem;
+}
+
+.nav-links > li:after {
+  content: '|';
+  margin-left: 0.5rem;
+}
+
+.nav-links > li:last-child::after {
+  content: '';
+}
+
+.active {
+  text-decoration: none;
+  color: inherit;
+  cursor: default;
+  pointer-events: none;
+}
