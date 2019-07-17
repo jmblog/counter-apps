@@ -1,3 +1,9 @@
+# Counter Examples
+
+- React Redux (`mapStateToProps`)
+- React Redux (New hooks API)
+- unstated-next
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
